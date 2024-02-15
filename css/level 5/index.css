@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    padding: 6px;
+}
+nav a {text-decoration: none;
+    margin: 50px;
+    padding: 5px;
+
+}
+
+header {
+    background-color: aquamarine;
+    height: 30px;
+}
+
+#hi {
+    height: 50px;
+    width: 50px;
+    background-color: chartreuse;
+    text-align: center;
+    border-radius: 80px;
+    margin: 40px;
+    border-color: hotpink;
+    border-style: dotted;
+}
+
+.box {
+    background-color: aqua;
+    height: 60px;
+    width: 60px;
+    margin: 40px;
+    display: inline-block;
+    border: 2px dashed red;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#box2 {
+    z-index: 2px;
+    position: absolute;
+    left: 20px;
+}
+
+#container {
+    background-color: rgb(217, 255, 64);
+    margin: 50px;
+}
+
+#box4 {
+    position: fixed;
+    right: 10px;
+}
+
+footer {
+    bottom: 5px;
+    position: fixed;
+    background-color: crimson;
+}

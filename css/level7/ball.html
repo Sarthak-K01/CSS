@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: rgb(248, 193, 120);
+            position: relative;
+            height: 80vh;
+            width: 80vw;
+            border: 3px solid;
+
+        }
+        .box {
+            background-color: red;
+            height: 50px;
+            width: 50px;
+            border: 3px solid;
+             border-radius: 60px;
+             position: absolute;
+             bottom: 0px;
+             left: 0px;
+             animation: bounce 7s linear 0s infinite,  up 1.2s ease-out infinite alternate;
+             
+            
+             
+        }
+        @keyframes bounce {
+            from {left :0%}
+            to {left : 90%}
+        }
+        @keyframes up {
+            from {bottom:0%}
+            to {bottom:80%}
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>

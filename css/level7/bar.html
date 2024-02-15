@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            height: 20px;
+            width: 90%px;
+            background-color: rgb(193, 161, 224);
+            border: 3px solid;
+            border-radius: 20px;
+            position: relative;
+           
+        }
+        #progress {
+            height: 100%;
+            width: 90%px;
+            background-color: rgb(0, 255, 0);
+            border-radius: 20px;
+
+            animation: pro 3s ease-in-out infinite ;
+        }
+        @keyframes pro {
+            0% {width: 0%; background-color: red;}
+            90% {width: 95%;}
+            95%{width: 70%;}
+            100%{width: 100%; background-color: chartreuse;}
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="progress"></div>
+    </div>
+</body>
+</html>
